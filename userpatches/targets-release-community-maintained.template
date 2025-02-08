@@ -55,6 +55,8 @@ targets:
       BUILD_DESKTOP: "no"
     items:
       - { BOARD: aml-s9xx-box, BRANCH: current }
+      - { BOARD: mksklipad50, BRANCH: current }
+      - { BOARD: mksklipad50, BRANCH: edge }
 
   # debian stable xfce
   xfce-desktop-stable-debian:
